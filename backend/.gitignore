@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+venv/
+env/
+
+# Environment Variables
+.env
+.env.*
+
+# Local Database
+teamconnect.db
+*.sqlite3
+
+# Uploads
+static/uploads/

@@ -1,0 +1,65 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+.venv/
+venv/
+backend/venv/
+backend/.venv/
+
+# Secrets & Environment variables
+.env
+.env.*
+!.env.example
+*.env
+backend/.env
+frontend/.env
+*-firebase-adminsdk-*.json
+firebase-adminsdk*.json
+
+# Databases & SQLite
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+backend/teamconnect.db
+
+# User Uploads
+backend/static/uploads/*
+!backend/static/uploads/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Expo & Metro
+.expo/
+frontend/.expo/
+dist/
+frontend/dist/
+web-build/
+frontend/web-build/
+*.tsbuildinfo
+expo-env.d.ts
+
+# Native builds
+frontend/android/
+frontend/ios/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Logs and Debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# System & Temp
+.DS_Store
+Thumbs.db
+scratch/
